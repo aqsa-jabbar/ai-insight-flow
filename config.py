@@ -24,7 +24,7 @@ SERPER_URL = "https://google.serper.dev/search"
 SERPER_MAX_RESULTS = 5          # how many search results to feed the agent
 
 # --- Scraper settings ---
-MAX_SCRAPE_CHARS = 6000         # cap so we don't blow past the LLM context window
+MAX_SCRAPE_CHARS = 5000         # cap so we don't blow past the LLM context window
 
 # --- Shared ---
 REQUEST_TIMEOUT_SECONDS = 15
